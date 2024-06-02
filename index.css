@@ -1,0 +1,399 @@
+.home {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .home .div {
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(180deg, rgb(255, 255, 255) 0%, rgb(250, 237, 205) 99.5%);
+    width: 1440px;
+    height: 1854px;
+    position: relative;
+  }
+  
+  .home .group {
+    width: 1047px;
+    height: 632px;
+    top: 1007px;
+    position: absolute;
+    left: 180px;
+  }
+  
+  .home .frame {
+    width: 631px;
+    height: 292px;
+    top: 0;
+    left: 0;
+    background-color: #e9edc9;
+    position: absolute;
+    border-radius: 24.58px;
+    overflow: hidden;
+    border: 0.98px solid;
+    border-color: #000000;
+    box-shadow: 7.86px 7.86px 3.93px #00000040;
+  }
+  
+  .home .text-wrapper {
+    position: absolute;
+    width: 302px;
+    top: 10px;
+    left: 21px;
+    font-family: "Orienta", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 68.8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .div-wrapper {
+    width: 356px;
+    height: 492px;
+    top: 0;
+    left: 691px;
+    background-color: #e9edc9;
+    position: absolute;
+    border-radius: 24.58px;
+    overflow: hidden;
+    border: 0.98px solid;
+    border-color: #000000;
+    box-shadow: 7.86px 7.86px 3.93px #00000040;
+  }
+  
+  .home .text-wrapper-2 {
+    position: absolute;
+    width: 247px;
+    top: 18px;
+    left: 30px;
+    font-family: "Orienta", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 68.8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .frame-2 {
+    width: 285px;
+    height: 285px;
+    top: 347px;
+    left: 0;
+    background-color: #e9edc9;
+    position: absolute;
+    border-radius: 24.58px;
+    overflow: hidden;
+    border: 0.98px solid;
+    border-color: #000000;
+    box-shadow: 7.86px 7.86px 3.93px #00000040;
+  }
+  
+  .home .text-wrapper-3 {
+    position: absolute;
+    width: 247px;
+    top: 11px;
+    left: 19px;
+    font-family: "Orienta", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 68.8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .frame-3 {
+    width: 285px;
+    height: 285px;
+    top: 347px;
+    left: 346px;
+    background-color: #d9d9d9;
+    position: absolute;
+    border-radius: 24.58px;
+    overflow: hidden;
+    border: 0.98px solid;
+    border-color: #000000;
+    box-shadow: 7.86px 7.86px 3.93px #00000040;
+  }
+  
+  .home .text-wrapper-4 {
+    position: absolute;
+    width: 247px;
+    top: 15px;
+    left: 19px;
+    font-family: "Orienta", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 39.3px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .text-wrapper-5 {
+    position: absolute;
+    width: 247px;
+    top: 62px;
+    left: 19px;
+    font-family: "Orienta", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 29.5px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .frame-4 {
+    width: 355px;
+    height: 87px;
+    top: 545px;
+    left: 691px;
+    background-color: #b7c097;
+    position: absolute;
+    border-radius: 24.58px;
+    overflow: hidden;
+    border: 0.98px solid;
+    border-color: #000000;
+    box-shadow: 7.86px 7.86px 3.93px #00000040;
+  }
+  
+  .home .text-wrapper-6 {
+    position: absolute;
+    width: 319px;
+    top: 23px;
+    left: 19px;
+    font-family: "Orienta", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 31.5px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .group-2 {
+    width: 1080px;
+    height: 575px;
+    top: 207px;
+    position: absolute;
+    left: 180px;
+  }
+  
+  .home .desc {
+    position: absolute;
+    width: 490px;
+    height: 419px;
+    top: 38px;
+    left: 0;
+  }
+  
+  .home .rectangle {
+    width: 415px;
+    height: 73px;
+    top: 85px;
+    position: absolute;
+    left: 0;
+    background-color: #ccd5ae;
+    border-radius: 22.73px;
+    border: 0.91px solid;
+    border-color: #000000;
+    box-shadow: 5.45px 5.45px 3.64px #00000040;
+  }
+  
+  .home .text-wrapper-7 {
+    position: absolute;
+    width: 468px;
+    top: 0;
+    left: 18px;
+    font-family: "Orienta", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 63.6px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .smartsence {
+    position: absolute;
+    width: 468px;
+    top: 80px;
+    left: 18px;
+    font-family: "Orienta", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 63.6px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .smartsence-adalah {
+    position: absolute;
+    width: 397px;
+    top: 186px;
+    left: 18px;
+    font-family: "Orienta", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 31.8px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .top-view-of-planners {
+    position: absolute;
+    width: 504px;
+    height: 370px;
+    top: 0;
+    left: 576px;
+  }
+  
+  .home .connect {
+    position: absolute;
+    width: 315px;
+    height: 139px;
+    top: 435px;
+    left: 713px;
+  }
+  
+  .home .overlap-group {
+    position: absolute;
+    width: 311px;
+    height: 75px;
+    top: 64px;
+    left: 0;
+    border-radius: 22.73px;
+  }
+  
+  .home .rectangle-2 {
+    width: 311px;
+    height: 75px;
+    top: 0;
+    position: absolute;
+    left: 0;
+    background-color: #ccd5ae;
+    border-radius: 22.73px;
+    border: 0.91px solid;
+    border-color: #000000;
+    box-shadow: 5.45px 5.45px 3.64px #00000040;
+  }
+  
+  .home .text-wrapper-8 {
+    position: absolute;
+    width: 263px;
+    top: 21px;
+    left: 24px;
+    font-family: "Orienta", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 27.3px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .p {
+    position: absolute;
+    width: 263px;
+    top: 0;
+    left: 35px;
+    font-family: "Inter", Helvetica;
+    font-weight: 200;
+    color: #000000;
+    font-size: 22.7px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .home .header {
+    position: absolute;
+    width: 1440px;
+    height: 150px;
+    top: 0;
+    left: 0;
+    background-color: #fefae0;
+    box-shadow: 0px 6px 4px #00000040;
+  }
+  
+  .home .text-wrapper-9 {
+    position: absolute;
+    top: 50px;
+    left: 101px;
+    font-family: "Inria Sans", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 40px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .ellipse {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 25px;
+    left: 1177px;
+    object-fit: cover;
+  }
+  
+  .home .text-wrapper-10 {
+    position: absolute;
+    top: 59px;
+    left: 941px;
+    font-family: "Inria Sans", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 25px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .home .menu {
+    position: absolute;
+    width: 59px;
+    height: 74px;
+    top: 38px;
+    left: 1330px;
+  }
+
+  /* Modal */
+
+  /* Modal CSS */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}

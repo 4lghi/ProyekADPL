@@ -1,0 +1,67 @@
+.modal {
+    position: absolute;
+    width: 810.96px;
+    height: 528px;
+    background: white;
+    top:200px;
+    border-radius: 18.23px;
+    overflow: hidden;
+    border: 0.73px black solid;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.connect {
+    width: 287.34px;
+    height: 71.47px;
+    background: #D9D9D9;
+    border-radius: 18.23px;
+    border: 0.73px black solid;
+    font-family: 'Orienta', sans-serif;
+    margin-bottom: 20px;
+    font-size: 21.88px;
+    font-weight: 400;
+    color: black;
+}
+
+input[type="text"] {
+    width: 543.31px;
+    height: 71.47px;
+    background: 'white';
+    border-radius: 18.23px;
+    border: 0.73px black solid;
+    font-family: 'Orienta', sans-serif;
+    font-size: 21.88px;
+    font-weight: 400;
+    color: black;
+    padding: 0 10px;
+    margin-bottom: 24px;
+}
+
+input[type="date"] {
+    width: 543.31px;
+    height: 71.47px;
+    background: 'white';
+    border-radius: 18.23px;
+    border: 0.73px black solid;
+    font-family: 'Orienta', sans-serif;
+    font-size: 21.88px;
+    font-weight: 400;
+    color: black;
+    padding: 0 10px;
+    margin-bottom: 24px;
+}
+
+
+label {
+    font-family: 'Orienta', sans-serif;
+    font-size: 21.88px;
+    font-weight: 400;
+    color: black;
+    display: block;
+    margin-bottom: 8px;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="OpenSesi.css" />
+  </head>
+  <body>
+    <div class="home">
+      <div class="div">
+        <div class="group">
+          <div class="frame"><div class="text-wrapper">RIWAYAT ABSENSI</div></div>
+          <div class="div-wrapper"><div class="text-wrapper-2">DAFTAR WAJAH</div></div>
+          <div class="frame-2"><div class="text-wrapper-3">ABOUT US</div></div>
+          <div class="frame-3">
+            <div class="text-wrapper-4">STATUS:</div>
+            <div class="text-wrapper-5">Unconnected</div>
+          </div>
+          <button class="show-modal-sesi"><div class="text-wrapper-6">Connect to camera</div></button>
+        </div>
+        <div class="group-2">
+          <div class="desc">
+            <div class="rectangle"></div>
+            <div class="text-wrapper-7">What is</div>
+             <div class="smartsence">Smartsence?</div>
+            <p class="smartsence-adalah">
+              Smartsence adalah aplikasi absensi berbasis AI dengan bantuan teknologi Face Recognition.<br />Nama
+              Smartsence sendiri merupakan akronim dari Smart Presence.
+            </p>
+          </div>
+          <img
+            class="top-view-of-planners"
+            src="https://c.animaapp.com/btsPDZih/img/top-view-of-planners-notebook-glasses-and-pens.png"
+          />
+          <div class="connect">
+            <div class="overlap-group">
+              <div class="rectangle-2"></div>
+              <div class="text-wrapper-8">Get Started</div>
+            </div>
+            <p class="p">Want to start a session?</p>
+          </div>
+        </div>
+        <header class="header">
+          <div class="text-wrapper-9">SMARTSENCE</div>
+          <img class="ellipse" src="https://c.animaapp.com/btsPDZih/img/ellipse-2@2x.png" />
+          <div class="text-wrapper-10">Muhammad Sidiq</div>
+          <img class="menu" src="https://c.animaapp.com/btsPDZih/img/menu@2x.png" />
+        </header>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal-sesi">
+        <img class="x" src="X.png"/>
+        <button class="connect">Connect to camera</button>
+
+        <input type="text" id="session-name" placeholder="Enter session name">
+
+        <input type="text" id="class" placeholder="Enter your class">
+
+        <input type="date" id="date" placeholder="Select date">
+
+    </div>
+    
+   <script>
+        const showModalSesi = document.querySelector('.show-modal-sesi');
+        const modalSesi = document.querySelector('.modal-sesi');
+        const back = document.querySelector('.x');
+
+        showModalSesi.onclick = () => {
+            modalSesi.classList.add('active');
+        }
+
+        back.onclick = () => {
+            modalSesi.classList.remove('active');
+        }
+   </script>
+  </body>
+</html>
